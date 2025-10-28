@@ -82,6 +82,8 @@ Kontrast/accent farger: rød/oransje, lys grå.
 #0A041C, #1F1538, #FCEFD5, #70A0CC, #C95F38, #991f00
 font: Poppins
 
-Alt dette er notert før jeg i det hele tatt har begynt på index.html, og filstrukturen ser allerede slik ut uten noe kode, før jeg har startet på prosjektet: ![alt text](image.png)
+Alle notatet er skrevet før jeg har begynt på index.html, og filstrukturen ser allerede slik ut uten noe kode, før jeg har startet på prosjektet:
+
+![alt text](image.png)
 
 ---
