@@ -77,3 +77,12 @@
 .footer-location strong {
     color: var(--color-highlight-blue);
 }
+
+.footer-contact a {
+  color: var(--color-text-light);
+  text-decoration: none; /* fjern mørk blå farge og linje under email adressen */
+}
+.footer-location a {
+  color: var(--color-text-light);
+  text-decoration: none; /* fjern mørk blå farge og linje under lokasjon */
+}
