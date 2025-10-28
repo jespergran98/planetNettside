@@ -1,6 +1,5 @@
 .cards-section {
     max-width: 1320px; /* begrenser maksimal bredde (samme som jeg brukte i café nettsiden) */
-    height: 80vh;
     min-height: 850px; /* sikrer minimum høyde selv på små skjermer */
     margin: 0 auto;
 }
