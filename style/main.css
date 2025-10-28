@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+scroll-behavior: smooth; 
+}
+
+:root {
+  --color-background-dark: #0A041C;
+  --color-surface-medium: #1F1538;
+
+  --color-text-light: #FCEFD5; 
+  --color-highlight-blue: #70A0CC;
+
+  --color-accent-primary: #C95F38;
+  --color-accent-secondary: #991f00;
+
+  --font-family-main: 'Poppins', sans-serif;
+  --box-shadow-subtle: 0 6px 12px rgba(0, 0, 0, 0.5);
+  --border-radius-base: 6px;
+}
+
+body {
+    font-family: var(--font-family-main);
+    background-color: var(--color-background-dark);
+}

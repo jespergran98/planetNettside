@@ -1,0 +1,42 @@
+.header {
+    background-color: var(--color-surface-medium);
+    padding: 1.5rem 2rem;
+    box-shadow: var(--box-shadow-subtle);
+    display: flex;
+    justify-content: space-around; /* fordeler innhold jevnt med plass rundt */
+    align-items: center; /* sentrerer innhold vertikalt */
+    height: 100px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* avstand mellom logo og tekst */
+}
+
+.logo {
+    height: 50px;
+    width: auto; /* beholder bildets proporsjoner */
+}
+
+.logoName {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: var(--color-text-light);
+}
+
+.navigation {
+    display: flex;
+    gap: 5rem; /* avstand mellom navigasjon tekst */
+}
+
+.navigation a {
+    color: var(--color-highlight-blue);
+    text-decoration: none; /* fjerner understreking på lenker */
+    font-size: 1rem;
+    transition: color 0.3s; /* smooth fargeovergang på hover */
+}
+
+.navigation a:hover {
+    color: var(--color-accent-primary); /* endrer farge på hover */
+}

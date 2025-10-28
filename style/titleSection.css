@@ -1,0 +1,15 @@
+.title-section {
+    justify-items: center;
+    align-content: center;
+    min-height: 200px;
+    height: 20svh; /* 20% av skjermhøyden */
+}
+
+.title {
+    font-size: 5rem;
+    /* gradient bakgrunn som går fra blå til accent-farge */
+    background: linear-gradient(135deg, var(--color-highlight-blue), var(--color-accent-primary));
+    -webkit-text-fill-color: transparent; /* gjør teksten gjennomsiktig slik at gradient vises */
+    background-clip: text;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

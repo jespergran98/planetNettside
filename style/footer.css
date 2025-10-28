@@ -1,0 +1,79 @@
+.footer {
+    background-color: var(--color-surface-medium);
+    color: var(--color-text-light);
+    padding: 40px;
+}
+
+/* Container som holder hele footer-innholdet sentrert med maks bredde */
+.footer-container {
+    max-width: 1320px; /* begrenser maksimal bredde (samme som jeg brukte i café nettsiden) */
+    margin: 0 auto; /* sentrerer containeren horisontalt */
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Venstre side */
+.footer-left {
+    justify-content: center;
+}
+
+/* Container for logo og logo-tekst */
+.footer-logo {
+    display: flex; /* bruker flexbox for å plassere logo og tekst side om side */
+    align-items: center;
+    gap: 12px; /* avstand mellom logo og tekst */
+    margin-bottom: 20px; /* avstand under logo-seksjonen */
+}
+
+.footer-logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-logo-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer-contact,
+.footer-location {
+    margin-bottom: 10px;
+}
+
+/* Høyre side */
+.footer-right {
+    justify-content: center;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none; /* fjerner kulepunkter fra listen */
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: var(--color-text-light);
+    text-decoration: none; /* fjerner understreking på lenker */
+}
+
+/* Hover-effekt på lenker - endrer farge når musepeker er over */
+.footer-links a:hover {
+    color: var(--color-accent-primary);
+}
+
+/* Endrer farge på strong-elementer i kontakt-seksjonen */
+.footer-contact strong {
+    color: var(--color-highlight-blue);
+}
+
+/* Endrer farge på strong-elementer i lokasjons-seksjonen */
+.footer-location strong {
+    color: var(--color-highlight-blue);
+}
