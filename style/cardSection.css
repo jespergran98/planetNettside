@@ -67,3 +67,9 @@
 .card-list li::marker {
     color: var(--color-highlight-blue); /* farge på kulepunktene */
 }
+
+.card-list li::after {
+    content: " ⭐"; /* legger til stjerne etter hvert listeelement */
+    color: var(--color-accent-primary);
+    margin-left: 5px; /* litt avstand mellom tekst og stjerne */
+}
