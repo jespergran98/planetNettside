@@ -1,4 +1,15 @@
 
+NYE FEATURES SIDEN FORRIGE INNLEVERING:
+1. Fikset kommentarer i HTML koden
+2. La til en unordered list under "Utforkning og Oppdagelser" i "James Webb-teleskopet" kortet for å følge kravet og oppdaterte Utforkning og oppdagelser seksjonen.
+3. La til en stjerne etter hvert li element i "James Webb-teleskopet".
+4. La til en dekorativ linje før hver section title med "::before" i titleSection.css
+5. La til annen bakgrunn for annenhvert element i "James Webb-telescopet" med nth-child
+6. La til annen farge på første og siste teksten i "James Webb-telescopet" ved å bruke first og last child.
+7. La til .card-list li:nth-child(odd):not(:first-child), som gjør at bakgrunnen fra nth(odd) bare gis til li 3, siden li 1 har ::not.
+
+---
+
 CSS Advanced Oppgave 2: Using Pseudo Elements/Selectors:
 
 Introduksjon
@@ -28,16 +39,6 @@ Bruk :nth-of-type for å style én spesifikk underseksjon.
 Leveringskrav
 Bruk HTML og CSS-filer separat.
 Lagre prosjektet i en mappe som heter pseudo-oppgave.
-
----
-
-NYE FEATURES SIDEN FORRIGE INNLEVERING:
-1. Fikset kommentarer i HTML koden
-2. La til en unordered list under "Utforkning og oppdagelser" i "James Webb-teleskopet" kortet for å følge kravet og oppdaterte Utforkning og oppdagelser seksjonen.
-3. La til en stjerne etter hvert li element.
-4. La til en dekorativ linje før hver section title med "::before" i titleSection.css
-5. La til annen bakgrunn for annenhvert element i "James Webb-telescopet" med nth-child
-6. La til annen farge på første og siste teksten i "James Webb-telescopet" ved å bruke first og last child.
 
 ---
 
