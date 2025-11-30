@@ -3,6 +3,7 @@
     align-content: center;
     min-height: 200px;
     height: 20svh; /* 20% av skjermhøyden */
+    display: grid; /* legger til display grid for å sentrere innholdet */
 }
 
 .title {
@@ -12,4 +13,18 @@
     -webkit-text-fill-color: transparent; /* gjør teksten gjennomsiktig slik at gradient vises */
     background-clip: text;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative; /* nødvendig for å posisjonere ::before */
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    top: -20px; /* posisjonerer linjen over tittelen */
+    left: 50%;
+    transform: translateX(-50%); /* sentrerer linjen */
+    width: 150px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-highlight-blue), var(--color-accent-primary));
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(201, 95, 56, 0.4); /* subtle glød-effekt */
 }

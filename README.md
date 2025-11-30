@@ -35,6 +35,7 @@ NYE FEATURES SIDEN FORRIGE INNLEVERING:
 1. Fikset kommentarer i HTML koden
 2. La til en unordered list under "Utforkning og oppdagelser" i "James Webb-teleskopet" kortet for å følge kravet og oppdaterte Utforkning og oppdagelser seksjonen.
 3. La til en stjerne etter hvert li element.
+4. La til en dekorativ linje før hver section title med "::before" i titleSection.css
 
 ---
 
