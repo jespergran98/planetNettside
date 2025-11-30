@@ -1,6 +1,6 @@
 .cards-section {
     max-width: 1320px; /* begrenser maksimal bredde (samme som jeg brukte i café nettsiden) */
-    min-height: 850px; /* sikrer minimum høyde selv på små skjermer */
+    min-height: 950px; /* sikrer minimum høyde selv på små skjermer */
     margin: 0 auto;
 }
 
@@ -62,6 +62,23 @@
 
 .card-list li {
     margin-bottom: 8px; /* avstand mellom hvert listepunkt */
+    padding: 8px 12px; /* padding for å gi plass til bakgrunnsfargen */
+    border-radius: 8px; /* avrundede hjørner */
+    transition: background-color 0.3s ease; /* smooth overgang */
+}
+
+.card-list li:nth-child(odd) {
+    background-color: rgba(112, 160, 204, 0.1); /* lys blå bakgrunn på oddetalls elementer */
+}
+
+.card-list li:first-child {
+    color: var(--color-highlight-blue); /* blå tekstfarge på første element */
+    font-weight: 500; /* litt tykkere tekst */
+}
+
+.card-list li:last-child {
+    color: var(--color-accent-primary); /* oransje tekstfarge på siste element */
+    font-weight: 500; /* litt tykkere tekst */
 }
 
 .card-list li::marker {
